@@ -3,6 +3,7 @@ import Banner from '@/components/Banner'
 import Beauty from '@/components/Beauty'
 import Collection from '@/components/Collection'
 import Decoration from '@/components/Decoration'
+import Works from '@/components/Works'
 import React from 'react'
 
 const page = () => {
@@ -12,6 +13,7 @@ const page = () => {
     <Collection></Collection>
     <Beauty></Beauty>
     <Decoration></Decoration>
+    <Works></Works>
     </>
   )
 }

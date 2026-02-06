@@ -9,7 +9,7 @@ const Decoration = () => {
   return (
     
     <>
-        <section className=' pb-15 pt-15'>
+        <section className=' pb-15 pt-15 border-b border-[#D7D6D6]'>
             <div className="container">
                 <div className="c-hedding text-center pb-12.5 ">
                     <h3 className='font-montserrat font-bold text-[32px] text-[#333333] pb-5 '>
@@ -19,18 +19,18 @@ const Decoration = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                 </div>
-                <div className="c-card flex gap-10">
+                <div className="c-card flex gap-5">
                                         <div className="card " >
                                             <Image src={decor1}  alt='decoration-image'/>
-                                             <p className='pt-7.5 text-center font-montserrat font-semibold text-[24px] text-[#333333] '>Living</p>
+                                             <h3 className='pt-7.5 text-center font-montserrat font-semibold text-[24px] text-[#333333] '>Living</h3>
                                         </div>
                                         <div className="card ">
                                             <Image src={decor2} alt='decoration-image'/>
-                                            <p className='pt-7.5 text-center font-montserrat font-semibold text-[24px] text-[#333333] '>Bedroom</p>
+                                            <h3 className='pt-7.5 text-center font-montserrat font-semibold text-[24px] text-[#333333] '>Bedroom</h3>
                                         </div>
                                         <div className="card  ">
                                             <Image src={decor3} alt='decoration-image'/>
-                                            <p className='pt-7.5 text-center font-montserrat font-semibold text-[24px] text-[#333333] '>Dining</p>
+                                            <h3 className='pt-7.5 text-center font-montserrat font-semibold text-[24px] text-[#333333] '>Dining</h3>
                                         </div>
                 </div>
             </div>
